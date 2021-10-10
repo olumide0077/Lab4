@@ -1,0 +1,31 @@
+
+Return answer document in a week to Moodle. 
+Links:  
+-	Git book
+
+Exercise 1 
+ 
+-	Create GITHUB account 
+
+Exercise 2
+-	Create remote repo to GITHUB
+
+Exercise 3
+-	Create local directory. Connect local repo to remote repo. Add and commit some file to it 
+
+Exercise 4
+-	Push file to remote repo. Check that the file is in GITHUB
+
+Exercise 4
+-	 Edit the file in GITHUB and pull to local repo
+
+Exercise 5
+
+	Create local branch and checkout that branch
+	Make some changes to file
+	push and create remote branch (Use same remote repo as earlier)
+	Create pull request and merge branch to master in GITHUB
+	Delete remote branch in GITHUB
+	Checkout local master and delete local branch
+	pull master from GITHUB
+
