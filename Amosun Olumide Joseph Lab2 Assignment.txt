@@ -1,0 +1,75 @@
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git init
+Reinitialized existing Git repository in C:/ouluClasses/softwareDevelopment/labs
+1/.git/
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git add .
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ ls
+labs1.txt
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git commit -m "Add exixting file"
+[master 897843a] Add exixting file
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git add .
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git commit -m "Add exixting file"
+[master e24424c] Add exixting file
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git log
+commit e24424c618ab8a50a19f85b76d11fa9459625dc5 (HEAD -> master)
+Author: olumide0077 <amosunolumidejoseph@gmail.com>
+Date:   Fri Sep 17 17:26:52 2021 +0100
+
+    Add exixting file
+
+commit 897843a535b5e8402f0a31905c380d08d7df909a
+Author: olumide0077 <amosunolumidejoseph@gmail.com>
+Date:   Fri Sep 17 17:25:36 2021 +0100
+
+    Add exixting file
+
+commit 75929635c0276f8493cf2b98ebc4364c552a8a94
+Author: olumide0077 <amosunolumidejoseph@gmail.com>
+Date:   Fri Sep 17 17:10:42 2021 +0100
+
+    Add existing file
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   labs1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git add .
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git commit -m "Add exixting file"
+[master b1b8cbf] Add exixting file
+ 1 file changed, 1 insertion(+)
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+user@DESKTOP-MSCS7TG MINGW64 /c/ouluClasses/softwareDevelopment/labs1 (master)
+$
